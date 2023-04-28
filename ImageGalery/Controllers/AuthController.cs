@@ -92,7 +92,7 @@ namespace ImageGalery.Controllers
             _notfyService.Success("Logout successfull");
             return RedirectToAction(nameof(Index), "Home");
         }
-
+      
 
         private async Task<bool> CheckDuplicateEmail(string email)
         {
